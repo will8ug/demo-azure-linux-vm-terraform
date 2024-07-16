@@ -23,7 +23,13 @@ If you have successfully logged in, you'll see output like this:
 
 ![az-login-successfully](resources/az-login-successfully.jpg)
 
-Write down the `id` (subscription id) and `tenantId` here, you'll need them later.
+Write down the `id` (subscription id) and `tenantId` here, you'll need them later. If you don't see or have missed the above output for some reason, you can try this command to recall it (a successful login is still required):
+
+```shell
+az account list
+```
+
+Once you've got your subscription id and tenant id, carry on with the following steps:
 
 ```shell
 # set current active subscription
