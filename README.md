@@ -52,7 +52,7 @@ export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
 export ARM_TENANT_ID="<TENANT_ID>"
 
 # check it
-printenv | grep ^ARM*
+printenv | grep '^ARM*'
 ```
 
 For PowerShell:
